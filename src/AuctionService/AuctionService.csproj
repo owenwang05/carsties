@@ -9,4 +9,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.10" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RequestHelpers\" />
+  </ItemGroup>
 </Project>
