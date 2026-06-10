@@ -20,6 +20,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+// Initialize DB with seed data using DBInitializer 
 try
 {
     DbInitializer.InitDB(app); 
